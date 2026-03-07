@@ -4,7 +4,7 @@ metadata:
   name: backend-deployment
   namespace: demo
   labels:
-    app: backend
+    app: demo
 spec:
   replicas: 3
   selector:
