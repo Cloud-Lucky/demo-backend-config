@@ -16,7 +16,7 @@ spec:
         app: demo
     spec:
       containers:
-      - name: demo- backend-container
+      - name: demo-backend-container
         image: laxmireddy870113/backend:v1
         ports:
         - containerPort: 5000
@@ -27,7 +27,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: demo- backend-service
+  name: demo-backend-service
   namespace: demo  
 spec:
   selector:
